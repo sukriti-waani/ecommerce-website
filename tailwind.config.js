@@ -5,10 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#462d86",
-        secondary: "#c3b5f5",
-        tertiary: "#8a2be2",
-        qudraple: "#f5f5f5",
+        primary: "#006A71",
+        secondary: "#4F959D",
+        tertiary: "#205781",
+        qudraple: "#F2EFE7",
       },
       container: {
         center: true,
