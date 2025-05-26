@@ -4,7 +4,7 @@
 import React from "react";
 import Image1 from "../../assets/women.png";
 import Image2 from "../../assets/people.png";
-import Image3 from "../../assets/sales.png";
+import Image3 from "../../assets/sale.png";
 
 import Slider from "react-slick";
 
@@ -12,20 +12,23 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all women's Wear",
-    description: "Shop now and get upto 50% off on all women's wear.",
+    title: "✨ Feel Good, Look Great – For Less!",
+    description:
+      "Your wardrobe deserves an upgrade! Explore trendsetting styles with up to 50% OFF on all women's wear. Limited stock, unlimited style!",
   },
   {
     id: 2,
     img: Image2,
-    title: "Upto 40% off ",
-    description: "Shop now and get upto 40% off on all.",
+    title: "Everything Must Go – Up to 60% OFF!",
+    description:
+      "Don’t miss out on the ultimate shopping spree! Fresh fits, seasonal styles, and your favorite brands are all on massive discounts. Grab it before it’s gone!",
   },
   {
     id: 3,
     img: Image3,
-    title: "Upto 60% off on all Products sale",
-    description: "Shop now and get upto 60% off on all men's wear.",
+    title: "💥 Shop the Sale. Love the Savings.",
+    description:
+      "Unbeatable Prices. Unmatched Style. Unmissable Deals. Fashion meets affordability – now with up to 40–60% OFF. Refresh your closet without breaking the bank. Shop now and slay every look!",
   },
 ];
 
@@ -56,14 +59,14 @@ const Hero = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2">
                 {/* Text Content Section */}
                 <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
-                  <h1
+                  <h2
                     data-aos="Zoom-out"
                     data-aos-duration="500"
                     data-aos-once="true"
                     className="text-5xl sm:text-6xl lg:text-7xl font-bold"
                   >
                     {data.title}
-                  </h1>
+                  </h2>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="500"
