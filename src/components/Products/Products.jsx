@@ -10,12 +10,12 @@ import { FaStar } from "react-icons/fa6";
 // Array containing data for each product
 const ProductsData = [
   {
-    id: 1,                           // Unique key for React rendering
-    img: Img1,                       // Image source
-    title: "Women Ethnic",          // Product title
-    rating: 4.8,                     // Product rating
-    color: "Yellow",                // Product color
-    aosDelay: "0",                  // Animation delay using AOS
+    id: 1, // Unique key for React rendering
+    img: Img1, // Image source
+    title: "Women Ethnic", // Product title
+    rating: 4.8, // Product rating
+    color: "Yellow", // Product color
+    aosDelay: "0", // Animation delay using AOS
   },
   {
     id: 2,
@@ -58,7 +58,6 @@ const Products = () => {
     <div className="mt-14 mb-12">
       {/* Wrapper div with padding and centering */}
       <div className="container">
-
         {/* Header Section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           {/* Small top text */}
@@ -88,8 +87,8 @@ const Products = () => {
                 // AOS animation applied here with delay
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                key={data.id}                      // Unique key for each item
-                className="space-y-3 text-center"  // Vertical spacing and centering text
+                key={data.id} // Unique key for each item
+                className="space-y-3 text-center" // Vertical spacing and centering text
               >
                 {/* Product image */}
                 <img
@@ -112,8 +111,13 @@ const Products = () => {
               </div>
             ))}
           </div>
+          {/* View all button */}
+          <div className="flex justify-center">
+            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+              View All Button
+            </button>
+          </div>
         </div>
-
       </div>
     </div>
   );
