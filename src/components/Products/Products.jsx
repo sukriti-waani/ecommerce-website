@@ -101,7 +101,7 @@ const Products = () => {
                 <h3 className="font-semibold">{data.title}</h3>
 
                 {/* Product color */}
-                <p className="text-sm text-gray-600">{data.color}</p>
+                <p className="text-sm text-gray-900">{data.color}</p>
 
                 {/* Rating section with star icon */}
                 <div className="flex justify-center items-center gap-1">
@@ -113,8 +113,8 @@ const Products = () => {
           </div>
           {/* View all button */}
           <div className="flex justify-center">
-            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md hover:bg-opacity-90 transition">
+              Explore More
             </button>
           </div>
         </div>
